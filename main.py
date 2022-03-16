@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-browser = webdriver.Chrome(executable_path="C:\\Users\\hardik\\Desktop\\chromedriver_win32\\chromedriver.exe")
+browser = webdriver.Chrome(executable_path="C:\\Users\\hardik\\selpay\\chromedriver.exe")
 
 browser.get('https://apps.paybooks.in/')
 assert 'Paybooks Login | Paybooks App | Paybooks Admin Login' in browser.title
